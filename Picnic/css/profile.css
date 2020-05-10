@@ -1,0 +1,128 @@
+body{
+  background-color: #f2f2f2;
+}
+.container {
+  display: flex;
+  height:600px;
+  width:1000px;
+  margin: auto;
+}
+.person {
+  background-color: #305048;
+  height:inherit;
+  flex: 1;
+
+}
+.main {
+  background-color: grey;
+  height:inherit;
+  flex:2;
+
+}
+
+.image img {
+  height:150px;
+  width:120px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.settings ul{
+  list-style-type: none;
+  margin-left: 30px;
+}
+.settings ul > li {
+  height:40px;
+}
+.settings ul > li > a {
+  text-decoration: none;
+  color:white;
+  font-size: 1.5em;
+}
+/* Data */
+.tab_ov {
+  margin-left: 200px;
+  font-size: 1.4em;
+}
+.tab_ov h2 {
+  margin-left: 50px;
+  color:#305048;
+}
+.tab1 {
+  margin-left: 200px;
+  font-size: 1.4em;
+}
+.tab1 h2 {
+  margin-left: 50px;
+  color:#305048;
+}
+.tab1 input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.tab1 p {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.save_change{
+    height:35px;
+    width:130px;
+    margin-left: 30px;
+    background-color: #305048;
+    color:white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+  }
+.save_change:hover{
+  background-color: #4d8073;
+}
+
+
+/* 2 Menu text */
+#cont{
+  background-color: lightgrey;
+  height: 400px;
+  width:500px;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+#cont h2 {
+  margin-left: 150px;
+  color:#305048;
+  font-size: 32px;
+}
+
+#courses_lists {
+
+}
+.courses_list {
+  margin: 0 0 0 100px;
+  font-size: 22px;
+}
+
+.wel {
+  text-align: center;
+  font-size: 2em;
+  margin: 100px 100px 0 100px;
+}
+
+
+
+/* .tab1{
+  height:50px;
+}
+.tab1 td {
+  border: 1px solid black;
+  padding: 22px;
+  font-size: 22px;
+}
+
+.sts td > input {
+  font-size: 18px;
+  padding:5px;
+} */

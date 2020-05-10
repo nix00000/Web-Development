@@ -1,0 +1,26 @@
+body{
+  background-color: #f2f2f2;
+}
+h1{
+  text-align: center;
+}
+.crses {
+  border: 1px solid black;
+  height:100px;
+  width:200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding:10px;
+  text-align: center;
+  display: inline-block;
+  background-color: #008000;
+}
+.crses button{
+  width: 100px;
+  height:30px;
+}
+
+.crses a{
+  text-decoration: none;
+  font-size: 1.2em;
+}

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+.port_nav{
+  width: 100%;
+  height:90px;
+  background-color: #305048;
+
+}
+
+.users{
+  width:600px;
+  height:85px;
+  position: relative;
+  display: inline-block;
+  margin-left: 200px;
+
+}
+.img {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 40px;
+  position: relative;
+
+}
+.img_name {
+  display: inline-block;
+  height:50px;
+  position: relative;
+  margin-left: 20px;
+  top:-15px;
+}
+.img_name h2 {
+  font-size: 2em;
+  cursor: default;
+}
+.profile {
+  height:60px;
+  width:60px;
+  border-radius: 50% 50% 50% 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+/* links */
+
+.links {
+  display: inline-block;
+  position: relative;
+  top:-10px;
+}
+.links ul {
+  list-style-type: none;
+  margin: 0;
+}
+.links li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+.links li > a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #80b3ff;
+}
+.links li > a:hover {
+  text-decoration: underline;
+  color:white;
+
+}
+
+/* Search */
+.srch {
+  height:50px;
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+  top:-10px;
+}
+.srch_form input {
+  padding:10px 160px 10px 10px;
+  display: inline-block;
+
+}
+.srch_form button {
+  margin-left: -24px;
+  position: relative;
+  top:8px;
+  left:-10px;
+  background-color: white;
+  border:0;
+  cursor: pointer;
+  padding: 2px;
+  display: inline-block;
+
+}
+
+.srch_form img {
+  height:30px;
+  width:30px;
+}
+/* ENTRY */
+
+.user {
+  margin:0;
+  display: inline-block;
+}

@@ -1,0 +1,57 @@
+body {
+
+}
+h1{
+  margin:0;
+  text-align: center;
+  font-size: 4em;
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 60px;
+}
+.contis {
+  height:510px;
+  padding-top: 150px;
+  background-color: lightgrey;
+}
+
+.contis2{
+  width:100%;
+  height:770px;
+}
+.contis2 h2{
+  margin-bottom: 20px;
+  font-size: 2.8em;
+}
+.contis2 img {
+  width: inherit;
+  height:inherit;
+}
+.cent {
+  margin: auto;
+  position: relative;
+  width:400px;
+  padding: 0 100px 10px 100px;
+  background-color: rgba(169, 169, 169);
+  z-index: 1;
+  top: -700px;
+  left:0;
+}
+.cent ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.cent ul > li {
+  margin-bottom: 20px;
+
+}
+.cent ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size:1.4em;
+}
+.cent ul > li > a:hover{
+  color:blue;
+}
